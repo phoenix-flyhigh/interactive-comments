@@ -11,7 +11,7 @@ const NewComment: React.FC<INewCommentProps> = ({
 }: INewCommentProps) => {
   return (
     <div className="bg-white flex items-start gap-6 md:p-6 p-4 rounded-2xl w-min-[320px] w-full">
-      <img src={userImageSrc} />
+      <img src={userImageSrc} className="w-10"/>
       <textarea
         placeholder="Add a comment..."
         rows={3}

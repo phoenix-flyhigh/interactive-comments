@@ -46,10 +46,10 @@ const Card: React.FC<ICardProps> = ({
             <img src="../images/icon-minus.svg" />
           </button>
         </div>
-        <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col gap-3 w-full">
           <div className="flex justify-between items-center">
             <div className="flex justify-start items-center gap-4 text-xl">
-              <img src={userImageSrc} />
+              <img src={userImageSrc} className="w-10"/>
               <p className="font-bold text-dark-blue">{username}</p>
               {isCurrentUser && (
                 <div className="bg-moderate-blue text-white px-2">you</div>
@@ -66,7 +66,9 @@ const Card: React.FC<ICardProps> = ({
                     <img src="./../images/icon-delete.svg" />
                     Delete
                   </button>
-                  <button className="flex justify-center items-center gap-2 text-moderate-blue font-semibold hover:cursor-pointer hover:opacity-50 ">
+                  <button 
+                  onClick={() => setOnEdit(true)}
+                  className="flex justify-center items-center gap-2 text-moderate-blue font-semibold hover:cursor-pointer hover:opacity-50 ">
                     <img src="./../images/icon-edit.svg" />
                     Edit
                   </button>
