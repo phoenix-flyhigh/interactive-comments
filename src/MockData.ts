@@ -2,8 +2,8 @@ import { IComment, IUser } from "./Interfaces";
 
 export const currentUser: IUser = {
   image: {
-    png: "./images/avatars/image-juliusomo.png",
-    webp: "./images/avatars/image-juliusomo.webp",
+    png: "./public/images/avatars/image-juliusomo.png",
+    webp: "./public/images/avatars/image-juliusomo.webp",
   },
   username: "juliusomo",
 };
@@ -17,8 +17,8 @@ export const comments: IComment[] = [
     score: 12,
     user: {
       image: {
-        png: "./images/avatars/image-amyrobson.png",
-        webp: "./images/avatars/image-amyrobson.webp",
+        png: "./public/images/avatars/image-amyrobson.png",
+        webp: "./public/images/avatars/image-amyrobson.webp",
       },
       username: "amyrobson",
     },
@@ -33,8 +33,8 @@ export const comments: IComment[] = [
     score: 5,
     user: {
       image: {
-        png: "./images/avatars/image-maxblagun.png",
-        webp: "./images/avatars/image-maxblagun.webp",
+        png: "./public/images/avatars/image-maxblagun.png",
+        webp: "./public/images/avatars/image-maxblagun.webp",
       },
       username: "maxblagun",
     },
@@ -49,8 +49,8 @@ export const comments: IComment[] = [
         replyingTo: "maxblagun",
         user: {
           image: {
-            png: "./images/avatars/image-ramsesmiron.png",
-            webp: "./images/avatars/image-ramsesmiron.webp",
+            png: "./public/images/avatars/image-ramsesmiron.png",
+            webp: "./public/images/avatars/image-ramsesmiron.webp",
           },
           username: "ramsesmiron",
         },
@@ -65,8 +65,8 @@ export const comments: IComment[] = [
         replyingTo: "ramsesmiron",
         user: {
           image: {
-            png: "./images/avatars/image-juliusomo.png",
-            webp: "./images/avatars/image-juliusomo.webp",
+            png: "./public/images/avatars/image-juliusomo.png",
+            webp: "./public/images/avatars/image-juliusomo.webp",
           },
           username: "juliusomo",
         },
